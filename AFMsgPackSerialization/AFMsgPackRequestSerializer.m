@@ -59,7 +59,7 @@
         return mutableRequest;
     }
 
-    [mutableRequest setValue:@"application/x-msgpack" forHTTPHeaderField:@"Content-Type"];
+    [mutableRequest setValue:@"application/msgpack" forHTTPHeaderField:@"Content-Type"];
     [mutableRequest setHTTPBody:[MsgPackSerialization dataWithMsgPackObject:parameters options:self.writingOptions error:error]];
 
     return mutableRequest;

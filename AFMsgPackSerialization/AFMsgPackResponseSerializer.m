@@ -41,7 +41,7 @@
         return nil;
     }
 
-    self.acceptableContentTypes = [NSSet setWithObjects:@"application/x-msgpack", nil];
+    self.acceptableContentTypes = [NSSet setWithObjects:@"application/msgpack", nil];
 
     return self;
 }

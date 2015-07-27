@@ -28,7 +28,7 @@
 
  By default, `AFMsgPackSerializer` accepts the following MIME types:
 
- - `application/x-msgpack`
+ - `application/msgpack`
  */
 @interface AFMsgPackResponseSerializer : AFHTTPResponseSerializer
 
